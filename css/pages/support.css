@@ -1,0 +1,252 @@
+.container {
+    width: 1100px;
+    margin: 0 auto; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 26px;
+    margin-top: 20px;
+}
+
+.navbar ul li a{
+    font-family: var(--Roboto);
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--mainTextColor);
+    transition: 0.7s;
+}
+
+.navbar ul li a:hover {
+    color: var(--Orange);
+}
+
+.header h1{
+    font-family: var(--Rubik);
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--mainTextColor);
+    margin-top: 20px;
+}
+
+.header h1 a {
+    color: var(--mainTextColor);
+}
+
+.links {
+    display: flex;
+    gap: 26px;
+}
+
+.links a {
+    font-family: var(--Roboto);
+    color: var(--mainTextColor);
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    transition: 0.7s;
+}
+
+.links a:hover {
+    color: var(--Orange);
+}
+
+.support-area {
+    width: 731px;
+    margin: 0 auto;
+    margin-top: 109px;
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+}
+
+.support-head-text {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    align-items: center;
+    text-align: center;
+}
+
+.support-head-text h1 {
+    font-family: var(--Roboto);
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 65px;
+    color: var(--mainTextColor);
+    letter-spacing: -2px;
+}
+
+.support-head-text p {
+    font-family: var(--Roboto);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: var(--mainTextColor);
+    width: 640px;
+    opacity: 0.7;
+}
+
+.under-text-area {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    margin-bottom: 210px;
+}
+
+.under-text-area p {
+    font-family: var(--Roboto);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+    color: var(--mainTextColor);
+    opacity: 0.7;
+    width: 731px;
+}
+
+.license-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.license-text h1 {
+    font-family: var(--Roboto);
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: var(--mainTextColor);
+}
+
+.license-text p {
+    font-family: var(--Roboto);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+    color: var(--mainTextColor);
+    opacity: 0.7;
+}
+
+.security-text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.security-text h1 {
+    font-family: var(--Roboto);
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: var(--mainTextColor);
+}
+
+.security-text ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    position: relative;
+    left: 20px;
+}
+
+.security-text ul li {
+    font-family: var(--Roboto);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 50px;
+    letter-spacing: -0.2px;
+    color: var(--mainTextColor);
+    opacity: 0.7;
+}
+
+.footer {
+    background-color: var(--mainColor);
+    height: 496px;
+}
+
+.footer-area {
+    padding-top: 122px;
+    display: flex;
+    gap: 101px;
+}
+
+.footer-left {
+    width: 274px;
+    height: 209px;
+}
+
+.footer-left h1 {
+    font-family: var(--Rubik);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.16px;
+    color: #FFFFFF;
+}
+
+.footer-left p {
+    font-family: var(--Roboto);
+    font-weight: 40;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-top: 36px;
+}
+
+.footer-left ul {
+    display: flex;
+    margin-top: 44px;
+    gap: 23px;
+}
+
+#twitter {
+    color: var(--greenText);
+}
+
+.footer-right {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-names {
+    width: 144px;
+    height: 206px;
+}
+
+.footer-names  h1 {
+    font-family: var(--Roboto);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.footer-names ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-names ul li a {
+    font-family: var(--Roboto);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 40px;
+    letter-spacing: -0.2px;
+    color: #FFFF;
+}
